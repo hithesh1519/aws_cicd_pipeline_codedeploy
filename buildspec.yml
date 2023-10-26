@@ -11,5 +11,6 @@ phases:
 
 artifacts:
   files: 
-    - index.html
-    name: resume
+    - name: resume
+      files:
+        - index.html
