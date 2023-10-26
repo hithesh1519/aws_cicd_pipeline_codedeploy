@@ -1,38 +1,144 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>AAR DEMO | AWS CLOUD DEPLOYMENT</title>
-  <style>
-    body {
-      color: #000080;
-      background-color: #FFFFFF;
-      font-family: Arial, sans-serif;
-      font-size: 14px;
-    }
-    
-    h1 {
-      font-size: 500%;
-      font-weight: normal;
-      margin-bottom: 0;
-    }
-    
-    h2 {
-      font-size: 200%;
-      font-weight: normal;
-      margin-bottom: 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+        }
+        h1 {
+            color: #007acc;
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+        h2 {
+            color: #007acc;
+        }
+        .contact-info ul, .education ul, .experience ul, .skills ul, .projects ul, .languages ul, .certifications ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .contact-info ul li, .education ul li, .experience ul li, .skills ul li, .projects ul li, .languages ul li, .certifications ul li {
+            margin-bottom: 10px;
+        }
+        .education, .experience, .skills, .projects, .languages, .certifications {
+            margin-top: 20px;
+        }
+        .education p, .experience p, .skills p, .projects p, .languages p, .certifications p {
+            margin: 5px 0;
+        }
+        a {
+            color: #007acc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-  <div align="center">
-    <img src="/aar_logo_final.png" style="max-width: 20%;">
-    <h1>Congratulations!!! Meghana</h1>
-      <h2>Welcome to AAR SOURCE| Ram Hemareddy</h2>
-    <h3>This application was deployed using AWS CodeDeploy.</h3>
-    <p>For next steps, read the <a href="http://aws.amazon.com/documentation/codedeploy">AWS CodeDeploy Documentation</a>.</p>
-    <h1>SUCCESSFUL</h1>
-  </div>
+    <div class="container">
+        <header>
+            <h1>JOHN</h1>
+            <p>Computer Science Student</p>
+        </header>
+
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <ul>
+                <li>Email: john@gmail.com</li>
+                <li>Phone: (123) 456-7890</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/yourname">linkedin.com/in/yourname</a></li>
+                <li>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></li>
+            </ul>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <p><strong>Degree:</strong> Bachelor of Science in Computer Science</p>
+                    <p><strong>School:</strong> University Name</p>
+                    <p><strong>Year:</strong> 20XX - 20XX</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="experience">
+            <h2>Work Experience</h2>
+            <ul>
+                <li>
+                    <p><strong>Company:</strong> Company Name</p>
+                    <p><strong>Position:</strong> Software Development Intern</p>
+                    <p><strong>Year:</strong> 20XX - 20XX</p>
+                    <ul>
+                        <li>Developed and maintained web applications using HTML, CSS, and JavaScript.</li>
+                        <li>Collaborated with a team to build and deploy software solutions.</li>
+                        <li>Assisted in troubleshooting and debugging issues in existing software.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: Python, Java, C++</li>
+                <li>Web Development: HTML, CSS, JavaScript, React</li>
+                <li>Database Management: SQL</li>
+                <li>Version Control: Git</li>
+                <li>Problem Solving and Algorithms</li>
+            </ul>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <p><strong>Project:</strong> E-commerce Website</p>
+                    <p><strong>Description:</strong> Developed a full-stack e-commerce website using React and Node.js, allowing users to browse, select, and purchase products.</p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/yourusername/e-commerce-website">github.com/yourusername/e-commerce-website</a></p>
+                </li>
+                <!-- Add more project entries here -->
+            </ul>
+        </section>
+
+        <section class="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>English (Fluent)</li>
+                <li>Spanish (Intermediate)</li>
+            </ul>
+        </section>
+
+        <section class="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>
+                    <p><strong>Certification:</strong> Web Development Professional Certificate</p>
+                    <p><strong>Issuing Organization:</strong> Online Certification Provider</p>
+                    <p><strong>Year:</strong> 20XX</p>
+                </li>
+                <!-- Add more certification entries here -->
+            </ul>
+        </section>
+    </div>
 </body>
 </html>
-
