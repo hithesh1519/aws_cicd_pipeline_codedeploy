@@ -8,3 +8,8 @@ phases:
     commands:
       - echo "Website deployed successfully"
       - echo "Artifacts copied to S3"
+      
+artifacts:
+  name: resume
+  files:
+    - index.html
